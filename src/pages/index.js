@@ -6,7 +6,7 @@ import ExternalLink from "../components/externalLink"
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout slug="/" title="Chris Speck">
       <h2>Hello!</h2>
       <p>
         My name is Chris, I am a software engineer and a man of many hobbies
