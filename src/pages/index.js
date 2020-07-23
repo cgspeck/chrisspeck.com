@@ -13,26 +13,49 @@ export default function Home() {
       <ul>
         <li>
           Photographers'{" "}
-          <a href="https://matcalculator.chrisspeck.com/">
+          <a
+            href="https://matcalculator.chrisspeck.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Mat Board Calculator
           </a>
         </li>
         <li>
           Homebrewers'{" "}
-          <a href="https://hopscalculator.chrisspeck.com/">
+          <a
+            href="https://hopscalculator.chrisspeck.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Hop Aging Calculator
           </a>
         </li>
         <li>
           Multi-computer{" "}
-          <a href="https://github.com/cgspeck/fg-orchestrator">
+          <a
+            href="https://github.com/cgspeck/fg-orchestrator"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             launcher for FlighGear
           </a>
         </li>
         <li>
           A 3d printable{" "}
-          <a href="https://github.com/cgspeck/etw">elevator trimtab</a> or{" "}
-          <a href="https://www.thingiverse.com/thing:3021944">
+          <a
+            href="https://github.com/cgspeck/etw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            elevator trimtab
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://www.thingiverse.com/thing:3021944"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             parametric cat food lid
           </a>
         </li>
@@ -41,14 +64,34 @@ export default function Home() {
       <p>You can also find me:</p>
       <ul>
         <li>
-          on <a href="https://github.com/cgspeck">Github</a>
-        </li>
-        <li>
-          on <a href="https://www.linkedin.com/in/cgspeck/">LinkedIn</a>
+          on{" "}
+          <a
+            href="https://github.com/cgspeck"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
         </li>
         <li>
           on{" "}
-          <a href="https://www.thingiverse.com/specky/designs">Thingiverse</a>
+          <a
+            href="https://www.linkedin.com/in/cgspeck/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          on{" "}
+          <a
+            href="https://www.thingiverse.com/specky/designs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Thingiverse
+          </a>
         </li>
       </ul>
 
