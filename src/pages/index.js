@@ -1,5 +1,8 @@
 import React from "react"
+
 import Layout from "../components/layout"
+
+import ExternalLink from "../components/externalLink"
 
 export default function Home() {
   return (
@@ -13,51 +16,41 @@ export default function Home() {
       <ul>
         <li>
           Photographers'{" "}
-          <a
-            href="https://matcalculator.chrisspeck.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink url="https://matcalculator.chrisspeck.com/">
             Mat Board Calculator
-          </a>
+          </ExternalLink>
         </li>
         <li>
           Homebrewers'{" "}
-          <a
-            href="https://hopscalculator.chrisspeck.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink url="https://hopscalculator.chrisspeck.com/">
             Hop Aging Calculator
-          </a>
+          </ExternalLink>
         </li>
         <li>
           Multi-computer{" "}
-          <a
-            href="https://github.com/cgspeck/fg-orchestrator"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink url="https://github.com/cgspeck/fg-orchestrator">
             launcher for FlighGear
-          </a>
+          </ExternalLink>
         </li>
         <li>
           A 3d printable{" "}
-          <a
-            href="https://github.com/cgspeck/etw"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink url="https://github.com/cgspeck/etw">
             elevator trimtab
-          </a>{" "}
+          </ExternalLink>{" "}
           or{" "}
-          <a
-            href="https://www.thingiverse.com/thing:3021944"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink url="https://www.thingiverse.com/thing:3021944">
             parametric cat food lid
-          </a>
+          </ExternalLink>
+        </li>
+      </ul>
+      <p>Some interesting projects I'm working on that are in progress:</p>
+      <ul>
+        <li>
+          a wifi-controllable{" "}
+          <ExternalLink url="https://github.com/cgspeck/barndoor-tracker-pi">
+            Raspberry Pi + Arduino astro-photography tracker
+          </ExternalLink>{" "}
+          with align-assist, dew controller and intervalometer
         </li>
       </ul>
       <p>If you wish to contact me, my email address is cgspeck at gmail.com</p>
@@ -65,33 +58,19 @@ export default function Home() {
       <ul>
         <li>
           on{" "}
-          <a
-            href="https://github.com/cgspeck"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
+          <ExternalLink url="https://github.com/cgspeck">Github</ExternalLink>
         </li>
         <li>
           on{" "}
-          <a
-            href="https://www.linkedin.com/in/cgspeck/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink url="https://www.linkedin.com/in/cgspeck/">
             LinkedIn
-          </a>
+          </ExternalLink>
         </li>
         <li>
           on{" "}
-          <a
-            href="https://www.thingiverse.com/specky/designs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink url="https://www.thingiverse.com/specky/designs">
             Thingiverse
-          </a>
+          </ExternalLink>
         </li>
       </ul>
 
