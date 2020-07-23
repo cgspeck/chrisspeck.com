@@ -5,6 +5,11 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Chris Speck's Site`,
+    description: `Chris Speck's personal website`,
+    author: `Chris Speck`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -35,5 +40,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
